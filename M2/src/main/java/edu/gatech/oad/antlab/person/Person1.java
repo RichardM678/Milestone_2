@@ -30,11 +30,20 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
+<<<<<<< HEAD
 		//Person 1 put your implementation here
 		String temp = "";
 		temp += input.substring(2);
 		temp += input.substring(0,2);
 		return temp;
+=======
+	  //Person 1 put your implementation here
+	  String temp = "";
+	  temp += input.substring(2);
+	  temp += input.substring(0,2);
+	  return temp;
+
+>>>>>>> sooah
 	}
 
 	/**
