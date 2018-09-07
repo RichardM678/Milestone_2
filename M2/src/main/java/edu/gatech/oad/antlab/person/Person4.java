@@ -8,6 +8,7 @@ package edu.gatech.oad.antlab.person;
  *  @author Bob
  *  @version 1.1
  */
+import java.util.*;
 public class Person4 {
   /** Holds the persons real name */
   private String name;
@@ -39,7 +40,7 @@ public class Person4 {
         }
         String newString = Arrays.toString(newCharArray).replaceAll("\\[|\\]|,|\\s", "");
       //Person 4 put your implementation here
-      return newString;      return null;
+      return newString;
     }
     
     /**
